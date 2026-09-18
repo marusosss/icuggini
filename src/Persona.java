@@ -1,10 +1,10 @@
-import java.time.LocalDate;
-
 public class Persona {
     private String nome;
-    private String codiceFiscale;
+    private String cognome;
+    private int eta;
     private LocalDate dataNascita;
 
+}
     public String getNome() {
         return nome;
     }
@@ -28,5 +28,14 @@ public class Persona {
     public void setDataNascita(LocalDate dataNascita) {
         this.dataNascita = dataNascita;
     }
+    
+    public String getEta() {
+        return eta;
+    }
+
+    public void setEta(String eta) {
+        this.eta = eta;
+    }
 }
+
 
